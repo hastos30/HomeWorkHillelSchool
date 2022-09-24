@@ -1,10 +1,6 @@
 package Lesson3;
 
 public class HomeWorkApp {
-    public static void main(String[] args) {
-
-    }
-
     static public void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");

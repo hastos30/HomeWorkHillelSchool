@@ -12,9 +12,9 @@ public class Main {
 
     public static void wordSwapZ() {
         String text = "ZюукяДZіботZ,ежобZощZяZенZ!ьлаксом";
-
-        char[] textChar = text.toCharArray();
-
+        text = text.replace("Z", "*");
+        System.out.println(new StringBuffer(text).reverse());
+        /*
         for (int i = 0; i < textChar.length; i++) {
             char c = textChar[i];
             if (Character.isUpperCase(c)) {
@@ -24,9 +24,9 @@ public class Main {
             }
         }
         String newText = new String(textChar);
-        newText = newText.replace("z", "*");
+        ;
 
-        System.out.println(newText);
+        System.out.println(newText);*/
     }
 
     public static void calculator() {
